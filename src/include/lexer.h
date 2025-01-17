@@ -23,41 +23,41 @@ enum TokenType {
     Let,
     
     // assignment operators
-    OpEquals,
-    OpAddEquals,
-    OpSubEquals,
-    OpMulEquals,
-    OpDivEquals,
-    OpLambda,
+    Equals,
+    AddEquals,
+    SubEquals,
+    MulEquals,
+    DivEquals,
+    Lambda,
     Increment,
     Decrement,
 
     // comparison operators
-    OpLess,
-    OpGreater,
-    OpLessEquals,
-    OpGreaterEquals,
-    OpAndCmp,
-    OpOrCmp,
-    OpXorCmp,
-    OpNotEquals,
-    OpEqualsCmp,
-    OpQuestion,
-    OpColon,
+    Less,
+    Greater,
+    LessEquals,
+    GreaterEquals,
+    AndCmp,
+    OrCmp,
+    XorCmp,
+    NotEquals,
+    EqualsCmp,
+    Question,
+    Colon,
 
     // arithmetical operators
-    OpLogicalNot,
-    OpModulus,
+    LogicalNot,
+    Modulus,
 
     // shift operators
-    OpShiftRight,
-    OpShiftLeft,
+    ShiftRight,
+    ShiftLeft,
 
     // binary operators
-    BinOpAdd,
-    BinOpSub,
-    BinOpMul,
-    BinOpDiv,
+    BinAdd,
+    BinSub,
+    BinMul,
+    BinDiv,
 
     // bitwise operators
     BitwiseAnd,
@@ -102,7 +102,7 @@ enum TokenType {
     Void,
 
     // versatile operators
-    OpPointer,
+    Pointer,
 };
 
 struct Token {
