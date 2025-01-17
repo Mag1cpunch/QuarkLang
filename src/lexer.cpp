@@ -48,7 +48,7 @@ const std::unordered_map<std::string, TokenType> tokenMap = {
 };
 
 const std::unordered_map<std::string, TokenType> keywords = {
-    {"let", TokenType::Let},
+    {"let", TokenType::KeywordLet},
     {"func", TokenType::KeywordFunc},
     {"return", TokenType::KeywordReturn},
     {"if", TokenType::KeywordIf},
@@ -78,6 +78,7 @@ const std::unordered_map<std::string, TokenType> keywords = {
     {"define", TokenType::KeywordDefine},
     {"import", TokenType::KeywordImport},
     {"from", TokenType::KeywordFrom},
+    {"when", TokenType::KeywordWhen},
 };
 
 std::vector<std::string> splitString(const std::string &sourceCode) {

@@ -20,7 +20,6 @@ enum TokenType {
 
     // identifiers
     Identifier,
-    Let,
     
     // assignment operators
     Equals,
@@ -85,6 +84,8 @@ enum TokenType {
     KeywordDefine,
     KeywordImport,
     KeywordFrom,
+    KeywordWhen,
+    KeywordLet,
 
     // data types
     Int8,

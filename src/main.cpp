@@ -7,7 +7,7 @@
 #include <lexer.h>
 
 int main() {
-    std::string sourceCode = "func main() { let *a = 2; return a; }";
+    std::string sourceCode = "func main() { let *a = long; return a; }";
     auto tokens = tokenize(sourceCode);
     for (const auto &token : tokens) {
         std::cout << "Token: " << token.value << ", Type: " << token.type << "\n";
